@@ -1,68 +1,8 @@
+/** ~~Whole document~~ **/
 html, body {
   height: 100%;
   font-size: 100%;
-
-}
-
-.headerTop {
-  background: blue;
-  border-bottom: black 4px;
-}
-
-.headerTop1 {
-  width: 960px;
-  margin: 0 auto;
-  height: 60px;
-  background: grey;
-}
-
-#myName {
-  color: white;
-  height: 60px;
-  background: #4aaaa5;
-  max-height: 60px;
-  max-width: 200px;
-  float: left;
-  width: 30%;
-  line-height: 15px;
-  padding-left: 5px;
-}
-
-#navSection {
-  max-height: 60px;
-  text-align: right;
-  height: 60px;
-  width: 70%;
-  line-height: 60px;
-  float: left;
-}
-
-a {
-  padding: 1%;
-}
-
-.footer {
-  position: sticky;
-  width: 960px;
-  margin: 0 auto;
-  height: 100px;
-  position: relative;
-}
-
-.connectWithMe > img {
-  width: 100px;
-  padding: 5px;
-
-}
-
-.bodyDiv {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.box {
-  border-style: solid;
-  border-width: 1px;
+  background-image: url("../images/foggy_birds.png");
 }
 
 .container {
@@ -71,7 +11,139 @@ a {
   position: relative;
 }
 
+/** Top section bar of document **/
+.headerTop {
+  background: white;
+  border-bottom: black 10px;
+  height: 60px;
+}
+
+.headerTop1 {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 60px;
+  background: white;
+}
+
+#myName {
+  color: white;
+  background: #4aaaa5;
+  max-height: 100%;
+  float: left;
+  width: 30%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-size: 12px;
+}
+
+
+
+#navSection {
+  max-height: 60px;
+  text-align: right;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.navSectionContainer {
+  float: right;
+  width: 30%;
+}
+
+a {
+  padding: 0 5% 0 5%;
+  color: black;
+}
+
+/** ~~Middle section of document~~ **/
+
+.bodyDiv {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.box {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/** connectWithMe **/
+
+.connectWithMeContainer {
+  float: right;
+  max-width: 28.125%;
+}
+
+.connectWithMeContent {
+  text-align: center;
+}
+
+.connectWithMeContent > img {
+  width: 30%;
+}
+
+.connectWithMe > h3 {
+  text-align: center;
+}
+
+.connectWithMe {
+  float: right;
+  background: white;
+  padding: 0 10% 5% 10%;
+  color: #4aaaa5;
+}
+
+/** about me **/
+
+.aboutMeContainer {
+  max-width: 67.71%;
+}
+
+.aboutMe {
+  color: #4aaaa5;
+  float: left;
+  max-width: 100%;
+  background: white;
+}
+
+.aboutMe > h2 {
+  padding-left: 5%;
+}
+
+.paragraphs {
+  color: black;
+  padding: 0 5% 1% 5%;
+}
+
+.paragraphs > img {
+  width: 200px;
+  float: left;
+  padding: 2% 2% 2% 0;
+}
+
+
+/** ~~Bottom of document~~ **/
+
 .clearfooter {
   height: 100px;
   clear: both;
   }
+
+.footer {
+  height: 100px;
+  position: relative;
+  color: white;
+  background: #666666;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-top: 5px solid #4aaaa5;
+}
+
