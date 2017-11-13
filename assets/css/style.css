@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  font-size: 100%;
+
+}
+
+.headerTop {
+  background: blue;
+  border-bottom: black 4px;
+}
+
+.headerTop1 {
+  width: 960px;
+  margin: 0 auto;
+  height: 60px;
+  background: grey;
+}
+
+#myName {
+  color: white;
+  height: 60px;
+  background: #4aaaa5;
+  max-height: 60px;
+  max-width: 200px;
+  float: left;
+  width: 30%;
+  line-height: 15px;
+  padding-left: 5px;
+}
+
+#navSection {
+  max-height: 60px;
+  text-align: right;
+  height: 60px;
+  width: 70%;
+  line-height: 60px;
+  float: left;
+}
+
+a {
+  padding: 1%;
+}
+
+.footer {
+  position: sticky;
+  width: 960px;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+}
+
+.connectWithMe > img {
+  width: 100px;
+  padding: 5px;
+
+}
+
+.bodyDiv {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.box {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.container {
+  min-height: 100%;
+  margin-bottom: -100px;
+  position: relative;
+}
+
+.clearfooter {
+  height: 100px;
+  clear: both;
+  }
