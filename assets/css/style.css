@@ -75,8 +75,8 @@ html, body {
 }
 
 .box {
-  margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /** connectWithMe **/
@@ -126,32 +126,39 @@ html, body {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-/** about me **/
+/** main section **/
 
-.aboutMeContainer {
+.mainContainer {
   max-width: 67.71%;
+  width: 100%;
 }
 
-.aboutMe {
+.mainSection {
   color: #4aaaa5;
   float: left;
   max-width: 100%;
   background: #ffffff;
   border: 1px solid #dddddd;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 5% 0 5%;
 }
 
-.aboutMe > h2 {
-  padding-left: 5%;
+.mainSection > h2 {
   font-size: 24px;
   line-height: 300%;
   border-bottom: 1px solid #cccccc;
+  width: 100%;
+  padding-left: 5%;
+  box-sizing: border-box;
 }
+
+/** about me **/
 
 .paragraphs {
   color: #777777;
-  padding: 5%;
+  padding: 5% 0 5% 0;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 120%;
 }
@@ -160,7 +167,28 @@ html, body {
   width: 200px;
   float: left;
   padding: 0 2% 0 0;
+}
 
+/** contact me form **/
+
+.formContainer {
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 120%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+#message {
+  height: 200px;
+}
+
+.formLines {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1%;
+  resize: vertical;
 }
 
 
